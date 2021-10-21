@@ -1,0 +1,13 @@
+:root {
+    --color-primary-light: #517fd8;
+    --color-primary: #4369b2;
+    --color-primary-dark: #3d61a4;
+    --color-primary-darker: #203357;
+    --tile-size: 180px;
+  }
+
+  
+  body {
+    max-width: 360px;
+    margin: auto;
+  }

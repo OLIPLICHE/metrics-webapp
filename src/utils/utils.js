@@ -30,7 +30,7 @@ export const combineCurrencyRate = (currenciesArr, ratesObj) => {
 export const filterRates = (ratesArr, filter = 'alphabetical') => {
   switch (filter) {
     case 'alphabetical':
-      return [...ratesArr].sort((a, b) => (a.code > b.code) ? 1 : -1);
+      return [...ratesArr].sort((a, b) => (a.code > b.code) ? 1 : -1);// eslint-disable-line
 
     case 'most_valued':
       return [...ratesArr].sort((a, b) => a.value - b.value);
@@ -41,5 +41,4 @@ export const filterRates = (ratesArr, filter = 'alphabetical') => {
     default:
       return ratesArr;
   }
-
 };

@@ -1,17 +1,9 @@
-import {
-  createStore, combineReducers, applyMiddleware, compose,
-} from 'redux';
-import logger from 'redux-logger';
+import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
-import forexReducer from './forex/forex';
+import currencies from './currencies/currencies.js';
 
-const reducer = combineReducers({
-  forex: forexReducer,
-});
+const reducer = currencies;
 
-const store = createStore(
-  reducer,
-  compose(applyMiddleware(thunk), applyMiddleware(logger)),
-);
+const store = createStore(reducer, applyMiddleware(thunk));
 
 export default store;

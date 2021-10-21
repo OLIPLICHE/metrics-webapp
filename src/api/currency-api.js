@@ -1,4 +1,4 @@
-class ForexApi {
+class CurrencyAPI {
   constructor() {
     this.BASE_URL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/';
   }
@@ -17,6 +17,6 @@ class ForexApi {
   }
 }
 
-const api = new ForexApi();
+const api = new CurrencyAPI();
 
 export default api;
