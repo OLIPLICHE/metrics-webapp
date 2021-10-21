@@ -1,3 +1,8 @@
+## FOREIGN EXCHANGE MARKET
+I build a mobile web application that checks currencies market. Users worldwide will use this App to find the value of their choice.
+
+![WebImages](./images/currency1.png) [WebImages](./images/currency2.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
@@ -42,3 +47,28 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+- HTML5, 
+- CSS3 
+- JS
+- React and redux
+
+## Live Demo
+[Live Demo Link]()
+
+## Author
+👤 **Olipliche Mavoungou Paka**
+- GitHub: [https://github.com/OLIPLICHE)
+- LinkedIn: [LinkedIn](linkedin.com/in/olipliche)
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+## Show your support
+Give a ⭐️ if you like this project
+## Acknowledgments
+- Hat tip to anyone whose code was used
+- Inspiration
+
+## 📝 License
+This project is [Microverse](https://www.microverse.org/) licensed.
