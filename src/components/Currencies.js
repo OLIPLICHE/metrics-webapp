@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import store from '../redux/configStore.js';
-import { combineCurrencyRate, filterRates } from '../utils/utils.js';
+import { combineCurrencyRate, filterRates } from '../items/items.js';
 
-import '../styles/Currencies.css';
+import '../css/Currencies.css';
 
 const Currencies = () => {
   const currencies = useSelector((state) => state.currencies);
@@ -29,7 +29,7 @@ const Currencies = () => {
       <NavLink to={`/currency/${rate.code}`} key={rate.code}>
         <div className="item-tile">
           <span className="material-icons-outlined item-arrow-icon">
-            arrow_circle_right
+            <i className="fal fa-arrow-circle-right" />
           </span>
           <div className="item-tile-illustration">
             <h1>{rate.code}</h1>

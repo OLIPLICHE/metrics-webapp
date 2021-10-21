@@ -1,5 +1,5 @@
 import api from '../../api/currency-api.js';
-import { formatCurrencies } from '../../utils/utils.js';
+import { formatCurrencies } from '../../items/items.js';
 
 const GET_CURRENCIES_FROM_API = 'currencies/GET_CURRENCIES_FROM_API';
 const GET_EXCHANGE_FROM_API = 'currencies/GET_EXCHANGE_FROM_API';

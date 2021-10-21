@@ -4,7 +4,7 @@ import { Provider } from 'react-redux';
 import store from './redux/configStore.js';
 import App from './App.js';
 import { getCurrenciesFromApi, getExchangeFromAPi } from './redux/currencies/currencies.js';
-import './styles/index.css';
+import './css/index.css';
 
 store.dispatch(getCurrenciesFromApi());
 store.dispatch(getExchangeFromAPi());

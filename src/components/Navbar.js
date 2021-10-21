@@ -1,22 +1,22 @@
 import { NavLink } from 'react-router-dom';
-import '../styles/Navbar.css';
+import '../css/Navbar.css';
 
 const Navbar = () => (
   <header className="navbar">
     <NavLink exact to="/">
       <span className="material-icons-outlined">
-        arrow_back_ios
+        <i className="fal fa-chevron-square-left" />
       </span>
     </NavLink>
     <span className="navbar-title">
-      Forex News Today
+      Foreign Exchange Market
     </span>
     <span>
       <span className="material-icons-outlined navbar-icons">
-        mic
+        <i className="fal fa-microphone" />
       </span>
       <span className="material-icons-outlined navbar-icons">
-        settings
+        <i className="fal fa-cog" />
       </span>
     </span>
   </header>

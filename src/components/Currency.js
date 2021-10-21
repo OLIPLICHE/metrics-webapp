@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
 import api from '../api/currency-api.js';
-import { formatRates } from '../utils/utils.js';
+import { formatRates } from '../items/items.js';
 
-import '../styles/Currency.css';
+import '../css/Currency.css';
 
 const Currency = () => {
   const { code } = useParams();
@@ -19,7 +19,7 @@ const Currency = () => {
   const elements = rates ? rates.map((rate) => (
     <div key={rate.code} className="item-half-tile">
       <span className="material-icons-outlined currency-icon">
-        price_change
+        <i className="fad fa-sort-alt" />
       </span>
       <span className="currency-value">{rate.value}</span>
       <span className="currency-code">{rate.code}</span>
