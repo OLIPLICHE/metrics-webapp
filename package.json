@@ -57,6 +57,11 @@
     "stylelint-scss": "^3.21.0"
   },
   "rules": {
-    "no-confusing-arrow": ["error", {"allowParens": true}]
+    "no-confusing-arrow": [
+      "error",
+      {
+        "allowParens": true
+      }
+    ]
   }
 }

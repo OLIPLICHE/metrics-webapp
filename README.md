@@ -49,14 +49,13 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 - JavaScript
-- React
-- Redux
+- React, Redux
 - Html5 and Css3
 - npm
 - Api
 
 ## Live Demo
-[Live Demo Link]()
+[Live Demo Link](https://olipliche.github.io/metrics-webapp/)
 
 ## Author
 👤 **Olipliche Mavoungou Paka**
