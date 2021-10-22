@@ -1,7 +1,7 @@
 ## FOREIGN EXCHANGE MARKET
 I build a mobile web application that checks currencies market. Users worldwide will use this App to find the value of their choice.
 
-![WebImages](./images/currency1.png) [WebImages](./images/currency2.png)
+![WebImages](.images/currency1.png) [WebImages](.images/currency2.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
