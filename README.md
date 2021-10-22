@@ -48,10 +48,12 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-- HTML5, 
-- CSS3 
-- JS
-- React and redux
+- JavaScript
+- React
+- Redux
+- Html5 and Css3
+- npm
+- Api
 
 ## Live Demo
 [Live Demo Link]()
