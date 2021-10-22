@@ -1,0 +1,92 @@
+.btn {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border: none;
+  font-size: 1rem;
+  font-weight: bold;
+  color: inherit;
+  background-color: var(--color-primary-dark);
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--color-primary-darker);
+}
+
+.header-tile {
+  display: flex;
+  align-items: center;
+  height: var(--tile-size);
+  background-color: var(--color-primary-light);
+}
+
+.header-tile > * {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.header-tile > :first-child {
+  text-transform: uppercase;
+  font-size: 4rem;
+  color: var(--color-primary-darker);
+}
+
+.header-tile > :last-child {
+  font-size: 2rem;
+}
+
+.stats-header {
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: var(--color-primary-dark);
+}
+
+.tiles-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.tiles-wrapper a:nth-child(4n+1) > div,
+.tiles-wrapper a:nth-child(4n) > div {
+  background-color: var(--color-primary);
+}
+
+.item-tile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: var(--tile-size);
+  width: var(--tile-size);
+  padding: 0.5rem;
+  background-color: var(--color-primary-dark);
+}
+
+.item-tile-illustration {
+  font-size: 4rem;
+  color: var(--color-primary-darker);
+  user-select: none;
+}
+
+.item-arrow-icon {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  font-size: 2rem;
+}
+
+.item-tile-content {
+  text-align: end;
+}
+
+.item-tile-content > h2 {
+  text-transform: uppercase;
+}
+
+.item-tile-content > h3 {
+  font-weight: normal;
+}
