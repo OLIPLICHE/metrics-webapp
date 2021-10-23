@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Integration tests in Currencies matches the snapshot 1`] = `
+<main>
+  <div
+    className="header-tile"
+  >
+    <div>
+      <h1>
+        1 USD
+      </h1>
+    </div>
+    <div>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        alphabetical
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        most valued
+      </button>
+      <button
+        className="btn"
+        onClick={[Function]}
+        type="button"
+      >
+        least valued
+      </button>
+    </div>
+  </div>
+  <div
+    className="stats-header"
+  >
+    Stats by Currency
+  </div>
+  <div
+    className="tiles-wrapper"
+  />
+</main>
+`;

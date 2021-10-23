@@ -1,15 +1,15 @@
-import TestRenderer from 'react-test-renderer';
+import renderer from 'react-test-renderer';
 import { render, screen } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import '@testing-library/jest-dom/extend-expect.js';
 import store from '../redux/configStore.js';
-import Currencies from '../components/currencies.js';
+import Currencies from '../components/Currencies.js';
 
 jest.mock('../api/currency-api.js');
 
 describe('Integration tests in Currencies', () => {
   it('matches the snapshot', () => {
-    const tree = TestRenderer.create(
+    const tree = renderer.create(
       <Provider store={store}>
         <Currencies />
       </Provider>,

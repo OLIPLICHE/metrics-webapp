@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`integration test in navbar matches the snapshot 1`] = `
+<header
+  className="navbar"
+>
+  <a
+    aria-current="page"
+    className="active"
+    href="/"
+    onClick={[Function]}
+    style={Object {}}
+  >
+    <span
+      className="material-icons-outlined"
+    >
+      <i
+        className="fal fa-chevron-square-left"
+      />
+    </span>
+  </a>
+  <span
+    className="navbar-title"
+  >
+    Foreign Exchange Market
+  </span>
+  <span>
+    <span
+      className="material-icons-outlined navbar-icons"
+    >
+      <i
+        className="fal fa-microphone"
+      />
+    </span>
+    <span
+      className="material-icons-outlined navbar-icons"
+    >
+      <i
+        className="fal fa-cog"
+      />
+    </span>
+  </span>
+</header>
+`;
