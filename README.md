@@ -53,7 +53,7 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 - Api
 
 ## Live Demo
-[Live Demo Link](https://olipliche.github.io/metrics-webapp/)
+[Live Demo Link](https://paka-metrics-webapp.netlify.app/)
 
 ## Recording Video link
 [Live Demo Link](https://www.loom.com/share/5335f5fe1f744539aee4bcc45c5bfbe9)
