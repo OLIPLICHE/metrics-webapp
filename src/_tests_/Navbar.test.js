@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/react';
-import TestRenderer from 'react-test-renderer';
-import '@testing-library/jest-dom/extend-expect.js';
+import renderer from 'react-test-renderer';
+import '@testing-library/jest-dom';
 import {
   BrowserRouter as Router,
 } from 'react-router-dom';
@@ -10,7 +10,7 @@ import Navbar from '../components/Navbar.js';
 
 describe('integration test in navbar', () => {
   it('matches the snapshot', () => {
-    const tree = TestRenderer.create(
+    const tree = renderer.create(
       <Provider store={store}>
         <Router>
           <Navbar />
