@@ -1,7 +1,7 @@
 ## FOREIGN EXCHANGE MARKET
-I build a mobile web application that checks currencies market. Users worldwide will use this App to find the value of their choice.
+I build this mobile web application that checks market currencies. Users will use this App to find the value of a currency worldwide based on the dollar.
 
-![WebImages](./images/currency1.png) [WebImages](./images/currency2.png)
+![WebImages](./images/exchange.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
@@ -54,6 +54,9 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ## Live Demo
 [Live Demo Link](https://olipliche.github.io/metrics-webapp/)
+
+## Recording Video link
+[Live Demo Link](https://www.loom.com/share/5335f5fe1f744539aee4bcc45c5bfbe9)
 
 ## Author
 👤 **Olipliche Mavoungou Paka**
