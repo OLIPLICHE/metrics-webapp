@@ -1,5 +1,6 @@
 ## FOREIGN EXCHANGE MARKET
-I build this mobile web application that checks market currencies. Users will use this App to find the value of a currency worldwide based on the dollar.
+This App is an online exchange rate where users can see the actual value of cryptocurrencies and other currencies worldwide. Users will use this App only to look at the exchange rate.
+Kindly refresh the page when you open this beautiful App because it is deployed in Netlify. It runs slowly.
 
 ![WebImages](./images/exchange.png)
 
